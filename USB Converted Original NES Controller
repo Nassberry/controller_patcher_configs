@@ -1,0 +1,17 @@
+//USB Converted Original NES Controller
+[vid=0xf000,pid=0x0003]
+
+//DPad
+//                                      Position    Value
+DPAD_MODE                       =       DPAD_Absolute_2Values
+VPAD_BUTTON_DPAD_ABS_UP         =       0x01,   	0x00
+VPAD_BUTTON_DPAD_ABS_DOWN       =       0x01,	    0xFF
+VPAD_BUTTON_DPAD_ABS_LEFT       =       0x00,	    0x00
+VPAD_BUTTON_DPAD_ABS_RIGHT      =       0x00,       0xFF
+
+//Buttons
+VPAD_BUTTON_A                   =       0x02,       0x02
+VPAD_BUTTON_B                   =       0x02,       0x01
+VPAD_BUTTON_PLUS                =       0x02,       0x08
+VPAD_BUTTON_MINUS               =       0x02,       0x04
+PAD_COUNT=1
